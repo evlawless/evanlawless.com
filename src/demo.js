@@ -9,7 +9,6 @@ class Demo extends React.Component {
 	}
 
 	handleClick() {
-		const self = this;
 		this.setState((state, props) => {
 			return { clickCount: state.clickCount + 1};
 		});

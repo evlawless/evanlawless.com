@@ -24,7 +24,6 @@ var Demo = function (_React$Component) {
 	_createClass(Demo, [{
 		key: 'handleClick',
 		value: function handleClick() {
-			var self = this;
 			this.setState(function (state, props) {
 				return { clickCount: state.clickCount + 1 };
 			});
