@@ -39,7 +39,7 @@ var ToDont = function (_React$Component) {
 		key: 'updateListItem',
 		value: function updateListItem(newValue, idx) {
 			this.setState(function (state, props) {
-				var updatedItems = state.items;
+				var updatedItems = state.items.slice(0);
 				updatedItems[idx] = newValue;
 				return { items: updatedItems };
 			});
@@ -48,7 +48,7 @@ var ToDont = function (_React$Component) {
 		key: 'addNewItem',
 		value: function addNewItem() {
 			this.setState(function (state, props) {
-				var updatedItems = state.items;
+				var updatedItems = state.items.slice(0);
 				updatedItems.push('');
 				return { items: updatedItems };
 			});
@@ -56,9 +56,8 @@ var ToDont = function (_React$Component) {
 	}, {
 		key: 'deleteListItem',
 		value: function deleteListItem(idx) {
-			console.log(idx);
 			this.setState(function (state, props) {
-				var updatedItems = state.items;
+				var updatedItems = state.items.slice(0);
 				updatedItems.splice(idx, 1);
 				return { items: updatedItems };
 			});
@@ -74,14 +73,24 @@ var ToDont = function (_React$Component) {
 
 			return React.createElement(
 				'div',
-				null,
+				{ className: 'todont' },
 				React.createElement(
 					'div',
 					{ className: 'app-desc todont-app-desc' },
 					React.createElement(
-						'h1',
-						null,
-						'to-don\'t'
+						'div',
+						{ className: 'row align-items-center' },
+						React.createElement(
+							'h1',
+							{ className: 'mx-4' },
+							'to-don\'t'
+						),
+						React.createElement(
+							'a',
+							{ className: 'btn btn-secondary btn-sm btn-github', href: 'https://github.com/evlawless/todont' },
+							React.createElement('img', { src: './images/GitHub-Mark-32px.png', height: '16px' }),
+							' view on github'
+						)
 					),
 					React.createElement(
 						'p',

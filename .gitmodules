@@ -1,3 +1,6 @@
 [submodule "src/todont"]
 	path = src/todont
 	url = https://github.com/evlawless/todont.git
+[submodule "src/colorpicker"]
+	path = src/colorpicker
+	url = https://github.com/evlawless/colorpicker.git

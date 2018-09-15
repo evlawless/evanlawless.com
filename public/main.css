@@ -45,3 +45,39 @@ h1, h2, h3, h4, h5, h6 {
 .nav-link.active:hover {
 	background: linear-gradient(to bottom, rgba(255,255,255,0.3) 85%, rgba(185,255,255,1) 15%);	
 }
+
+.btn-github {
+	background: linear-gradient(to top left, #FFBBBB, #bbffff);	
+}
+
+.todont-app-content ul {
+	list-style: none;
+}
+
+.btn-secondary:hover {
+	color: #ffbbbb;
+	background: #bbfbfb !important;
+	border-color: white;
+}
+.todont-add-btn {
+	color: black;
+	background: #bbffff !important;
+}
+.btn-secondary {
+	color: black;
+	background: #bbffff !important;
+}
+
+.btn-github {
+	background: linear-gradient(to left, white, #bbffff) !important;	
+}
+
+.todont {
+	padding: 8px;
+}
+
+.colorpicker-app-content {
+	background: white !important;
+	padding: 20px;
+	border: 2px solid rgba(255,185,185,0.3);
+}
