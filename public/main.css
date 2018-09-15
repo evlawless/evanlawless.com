@@ -20,6 +20,8 @@ h1, h2, h3, h4, h5, h6 {
 	border-radius: 50%;
 }
 
+
+
 .bg-twh, .bg-twh * {
 	background: rgba(255,255,255,0.1);
 }
@@ -35,4 +37,11 @@ h1, h2, h3, h4, h5, h6 {
 
 .btn-liked {
 	color: blue !important;
+}
+
+.nav-link:hover {
+	background: linear-gradient(to bottom, rgba(255,255,255,0.1) 85%, rgba(185,255,255,1) 15%);	
+}
+.nav-link.active:hover {
+	background: linear-gradient(to bottom, rgba(255,255,255,0.3) 85%, rgba(185,255,255,1) 15%);	
 }

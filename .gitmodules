@@ -1,0 +1,3 @@
+[submodule "src/todont"]
+	path = src/todont
+	url = https://github.com/evlawless/todont.git

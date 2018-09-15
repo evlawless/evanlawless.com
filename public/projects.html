@@ -10,6 +10,7 @@
 	 integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans|Quicksand" rel="stylesheet">
 	<link rel="stylesheet" href="./main.css">
+	<link rel="stylesheet" href="./todont.css">
 
 	<link rel="manifest" href="%PUBLIC_URL%/manifest.json">
 	<link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
@@ -28,8 +29,8 @@
 				</button>
 				<div id="navbarNav" class="navbar-collapse collapse">
 					<div class="navbar-nav">
-						<a class="nav-item nav-link mx-1 active" href="/">home</a>
-						<a class="nav-item nav-link mx-1" href="/projects">projects</a>
+						<a class="nav-item nav-link mx-1" href="/">home</a>
+						<a class="nav-item nav-link mx-1 active" href="/projects.html">projects</a>
 						<a class="nav-item nav-link mx-1" href="https://github.com/evlawless" target="_blank">github</a>
 					</div>
 				</div>
@@ -41,18 +42,19 @@
 						click on these buttons to bring up some web toys i made to get some practice with react
 					</p>
 					<p class="">
-						<button onclick="loadToDont()" class="btn btn-light my-1 mh-auto">to don't list</button>
+						<button onclick="loadToDont()" class="btn btn-light my-1 mh-auto">to-don't list</button>
 						<button onclick="loadThoughtGarbage();" class="btn btn-light my-1 mh-auto">thought garbage</button>
 						<button onclick="loadBirdCaptcha();" class="btn btn-light my-1 mh-auto">captcha for birds</button>
 					</p>
 				</div>
 				<div id="app-view" class="col-xs-12 col-md-7">
+
 				</div>
 			</div>
 		</div>
 	</div>
 
-	<script src="./js/addinglist.js"></script>
+	<script src="./js/todont/todont.js"></script>
 	<script src="main.js"></script>
 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
 	 crossorigin="anonymous"></script>
