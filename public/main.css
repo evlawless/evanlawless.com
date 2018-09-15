@@ -1,0 +1,29 @@
+body {
+	font-family: 'Consolas', sans-serif !important;
+	background: linear-gradient(to top left, #bbffff, #FFBBBB);
+	margin: 0;
+	padding: 0;
+	background-size: 100vw 100vh;
+	background-attachment: fixed;
+	background-position: left top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Quicksand', sans-serif !important;
+}
+.navbar-brand {
+	font-size: 1.6rem;
+}
+
+.navbar-toggler {
+	border: 0;
+	border-radius: 50%;
+}
+
+.bg-twh, .bg-twh * {
+	background: rgba(255,255,255,0.1);
+}
+
+.bg-twh .active {
+	background: rgba(255,255,255,0.3);
+}
