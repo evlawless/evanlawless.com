@@ -13,7 +13,8 @@
 
 	<link rel="manifest" href="%PUBLIC_URL%/manifest.json">
 	<link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
-
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/react/16.4.2/umd/react.development.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/16.4.2/umd/react-dom.development.js"></script>
 </head>
 
 <body>
@@ -27,58 +28,32 @@
 				</button>
 				<div id="navbarNav" class="navbar-collapse collapse">
 					<div class="navbar-nav">
-						<a class="nav-item nav-link mx-1 active" href="./">home</a>
-						<a class="nav-item nav-link mx-1" href="./projects.html">projects</a>
+						<a class="nav-item nav-link mx-1 active" href="/">home</a>
+						<a class="nav-item nav-link mx-1" href="/projects">projects</a>
 						<a class="nav-item nav-link mx-1" href="https://github.com/evlawless" target="_blank">github</a>
 					</div>
 				</div>
 			</nav>
-			<div class="py-3 main-content">
-				<div class="row mt-5 justify-content-center">
-					<div class="col col-md-6 text-right">
-						<h1>my name is evan&nbsp;lawless</h1>
-						<h2>and i'm doing my&nbsp;best</h2>
-					</div>
+			<div class="py-3 main-content row">
+				<div class="col-xs-12 col-md-5">
+					<h1>here&nbsp;are&nbsp;some things&nbsp;i&nbsp;made</h1>
+					<p>
+						click on these buttons to bring up some web toys i made to get some practice with react
+					</p>
+					<p class="">
+						<button onclick="testAppOne();" class="btn btn-light my-1 mh-auto">a thing</button>
+						<button onclick="testAppTwo();" class="btn btn-light my-1 mh-auto">another thing</button>
+						<button class="btn btn-light my-1 mh-auto">thing</button>
+						<button class="btn btn-light my-1 mh-auto">look at this</button>
+					</p>
 				</div>
-				<div class="row mt-3">
-					<div class="col-md-8 offset-md-2">
-						<p>
-							welcome to my website!<br />
-							i'm a software developer, living and working in <a>london, ontario</a>
-						</p>
-					</div>
-				</div>
-				<div class="row mt-3 text-right justify-content-center">
-					<div class="col-md-8">
-						<p>
-							i like cooking, typing without capital letters, and doing computer stuff<br />
-							lately, i work mostly in <i>php</i> and <i>javascript</i>
-						</p>
-						<p>
-							with some<br />
-							<i>html, css<br />
-								liquid templates<br />
-								sass<br />
-								etc<br />
-							</i>
-						</p>
-						<p>
-							thrown in for good measure
-						</p>
-					</div>
-				</div>
-				<div class="row mt-3 justify-content-center">
-					<div class="col-md-8">
-						<p>
-							i went to fanshawe college<br />
-							where i also learned a bunch of other languages and stuff
-						</p>
-					</div>
+				<div id="app-view" class="col-xs-12 col-md-7">
 				</div>
 			</div>
 		</div>
 	</div>
 
+	<script src="main.js"></script>
 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
 	 crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"

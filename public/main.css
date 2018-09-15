@@ -27,3 +27,8 @@ h1, h2, h3, h4, h5, h6 {
 .bg-twh .active {
 	background: rgba(255,255,255,0.3);
 }
+
+.bg-twh .btn {
+	/* background: rgba(255,255,255,0.3); */
+	background: linear-gradient(to top left, rgba(255,255,255,0.7), rgba(255,255,255,0.05));
+}
