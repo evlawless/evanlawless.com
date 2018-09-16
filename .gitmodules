@@ -4,3 +4,6 @@
 [submodule "src/colorpicker"]
 	path = src/colorpicker
 	url = https://github.com/evlawless/colorpicker.git
+[submodule "src/thoughtgarbage"]
+	path = src/thoughtgarbage
+	url = https://github.com/evlawless/thoughtgarbage.git
