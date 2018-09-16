@@ -9,3 +9,6 @@ function loadToDont() {
 function loadColorPicker() {
 	ReactDOM.render(h(ColorPicker), container);
 }
+function loadThoughtGarbage() {
+	ReactDOM.render(h(ThoughtGarbage), container);
+}
